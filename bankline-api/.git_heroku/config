@@ -1,0 +1,11 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+[remote "heroku"]
+	url = https://git.heroku.com/neumann-bankline-api.git
+	fetch = +refs/heads/*:refs/remotes/heroku/*
+[remote "github"]
+	url = https://github.com/marceloneumann81/bankline-dio-santander
+	fetch = +refs/heads/*:refs/remotes/github/*
